@@ -2,7 +2,7 @@
 
 ##
 # Not Rock Paper Scissors Argument Error
-class NotRPSArgumentError < ArgumentError
+class NotRpsArgumentError < ArgumentError
   def initialize(options)
     super
     @options = options

@@ -26,7 +26,7 @@ class RockPaperScissors
   end
 
   def raise_rsp_argument_error
-    rpse = NotRPSArgumentError.new(OPTIONS)
+    rpse = NotRpsArgumentError.new(OPTIONS)
     raise rpse
   end
 
