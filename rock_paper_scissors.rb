@@ -4,7 +4,7 @@
 # Rock Paper Scissors
 # Let's play! You have to return which player won! In case of a draw return Draw!.
 
-require_relative 'errors/not_rsp_argument_error'
+require_relative 'errors/not_rps_argument_error'
 
 ##
 # Describes RockPaperScissors game
