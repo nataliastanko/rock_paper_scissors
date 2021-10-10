@@ -22,10 +22,10 @@ class RockPaperScissors
   end
 
   def raise_error_if_choice_not_valid(choice)
-    raise_rsp_argument_error unless OPTIONS.include?(choice)
+    raise_rps_argument_error unless OPTIONS.include?(choice)
   end
 
-  def raise_rsp_argument_error
+  def raise_rps_argument_error
     rpse = NotRpsArgumentError.new(OPTIONS)
     raise rpse
   end
